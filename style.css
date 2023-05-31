@@ -1,0 +1,66 @@
+.body{
+  background-color:  rgb(53, 53, 88);
+}
+
+.h1{
+  height: 5.5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 4.7rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white ;
+
+ 
+
+}
+
+
+.container
+ {
+    height: 100%;
+    margin: 10px auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    /* gap: 5px; */
+    column-gap: 2.2px;
+    background-color: rgb(53, 53, 88);
+ 
+    
+  
+  }
+  .container {
+    display: grid;
+    column-gap: 3px;
+  }
+
+.box{
+  image-resolution:center ;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 15px;
+  background: white;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px; 
+  width: 400px;
+  height: 400px;
+  transition:all 0.3s ease-in-out;
+
+}
+.box:hover{
+        transform: scale(1.03);
+}
+.button{
+  margin-top: 15px;
+  padding: 10px;
+  width:40%;
+  background-color: black;
+  border-radius: 5px;
+}
+
+button > a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
